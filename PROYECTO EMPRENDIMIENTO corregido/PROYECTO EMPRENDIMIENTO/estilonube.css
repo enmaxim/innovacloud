@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #4c3f91;
+    color: white;
+    padding: 20px 0;
+    background-image: url(imagenes/nubegif.gif);
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.introcontainer{
+    text-align: center;
+    color: black;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cambia el color al pasar el mouse */
+}
+
+.pricing {
+    padding: 50px 0;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: space-between; /* Asegura espacio entre las tarjetas */
+    gap: 20px;
+    flex-wrap: nowrap; /* Evita que las tarjetas se vayan a la siguiente línea */
+}
+
+.pricing-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 23%; /* Ajusta el ancho para que quepan 4 tarjetas en una fila */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    
+}
+
+.pricing-card h3 {
+    color: #4c3f91;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    color: #555;
+}
+
+.pricing-card ul li {
+    margin-bottom: 10px;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05); /* Hace zoom al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4c3f91;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #372d7c; /* Cambia el color del botón */
+    transform: translateY(-5px); /* Eleva el botón ligeramente */
+}
+
+img  {
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+    border-radius: 160%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media screen and (max-width: 1024px) {
+    .pricing-grid {
+        flex-wrap: wrap; /* Las tarjetas irán a la siguiente línea en pantallas más pequeñas */
+    }
+
+    .pricing-card {
+        width: 45%; /* Ocupan más espacio en pantallas medianas */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pricing-card {
+        width: 100%; /* Las tarjetas ocuparán todo el ancho en pantallas pequeñas */
+    }
+}

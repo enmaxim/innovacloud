@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f45e;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #f9f8f8;
+    color: rgb(255, 252, 252);
+    padding: 15px 0;
+    background-image: url(imagenes/datacentergif.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+header {
+    background-color: #f9f8f8;
+    color: rgb(255, 249, 249);
+    padding: 15px 0;
+    align-items: center;
+    text-align: center;
+    width: 50px;}
+
+header h1 {
+    margin: 0;
+    color: rgb(248, 246, 246);
+    align-items: center;
+    padding: 30px;
+}
+h2 {
+    text-align: center;
+    color: #fbf8f8;
+
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+nav ul li {
+    margin: 0 15px;
+    color: black;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    color: rgb(240, 235, 235);
+
+
+}
+}

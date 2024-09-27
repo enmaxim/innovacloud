@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnovaCloud Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <video autoplay muted loop class="background-video">
+            <source src="imagenes/inicio.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <h2>Bienvenido a </h2><br><h1>InnovaCloud Solutions</h1>
+            <p>Servicios digitales personalizados para tu negocio</p>
+            <a href="#servicios" class="cta-button">Ver Servicios</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+
+            <!-- Servicio 1: Almacenamiento en la Nube -->
+            <div id="nube" class="service-item cloud-service">
+                <img src="imagenes/nube3.gif" alt="Almacenamiento en la Nube">
+                <div class="service-text">
+                    <h3><a href="nube.html">Almacenamiento en la Nube</a></h3>
+                    <p>Transforma la forma en que gestionas tus datos con nuestro almacenamiento en la nube. Obtén acceso instantáneo, seguro y escalable a toda tu información desde cualquier lugar del mundo. ¡Mantén tus datos seguros y accesibles con solo un clic!</p>
+                </div>
+            </div>
+
+            <!-- Servicio 2: Servidores Locales -->
+            <div class="service-item local-server-service">
+                <img src="imagenes/servidores4.gif" alt="Servidores Locales">
+                <div class="service-text">
+                    <h3><a href="servicioslocales.html">Servidores Locales</a></h3>
+                    <p>Maximiza el rendimiento y la seguridad de tu infraestructura con nuestros servidores locales. Diseñados para ofrecerte el máximo control y fiabilidad, nuestros servidores están optimizados para adaptarse a las necesidades específicas de tu negocio, garantizando una operación fluida y continua.</p>
+                </div>
+            </div>
+
+            <!-- Servicio 3: Desarrollo de Sitios Web -->
+            <div class="service-item web-development-service">
+                <img src="imagenes/Diseno-Web 2.gif" alt="Desarrollo de Sitios Web">
+                <div class="service-text">
+                    <h3><a href="desarrolloweb.html">Desarrollo de Sitios Web</a></h3>
+                    <p>Deja que tu negocio brille en línea con un sitio web a medida que captura la esencia de tu marca. Desde el diseño hasta la funcionalidad, creamos experiencias web únicas y atractivas que convierten visitantes en clientes y destacan en el mercado digital.</p>
+                </div>
+            </div>
+
+            <!-- Servicio 4: Marketing Digital -->
+            <div class="service-item digital-marketing-service">
+                <img src="imagenes/marketing.gif" alt="Marketing Digital">
+                <div class="service-text">
+                    <h3><a href="marketing.html">Marketing Digital</a></h3>
+                    <p>Impulsa tu presencia en línea con nuestras estrategias de marketing digital personalizadas. Desde SEO hasta campañas en redes sociales, te ayudamos a alcanzar a tu audiencia objetivo y a maximizar el retorno de tu inversión con técnicas innovadoras y efectivas.</p>
+                </div>
+            </div>
+
+            <!-- Servicio 5: Ciberseguridad -->
+            <div class="service-item cybersecurity-service">
+                <img src="imagenes/ciberseguridad.gif" alt="Ciberseguridad">
+                <div class="service-text">
+                    <h3><a href="ciberseguridad.html">Ciberseguridad</a></h3>
+                    <p>Protege tu negocio contra amenazas cibernéticas con nuestra solución integral de ciberseguridad. Implementamos medidas avanzadas para salvaguardar tus datos y sistemas, asegurando tranquilidad y confianza en cada transacción y operación en línea.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>En InnovaCloud Solutions, somos un equipo apasionado por impulsar el crecimiento digital de empresas de todos los tamaños. Nos especializamos en soluciones tecnológicas personalizadas que optimizan la gestión de datos, la presencia en línea y la seguridad digital. Con una amplia experiencia en almacenamiento en la nube, servidores locales, desarrollo web, marketing digital y ciberseguridad, nuestro objetivo es ayudar a las empresas a navegar el mundo digital de manera eficiente y segura. Ofrecemos herramientas modernas que permiten a nuestros clientes operar de manera más fluida, proteger sus datos y alcanzar su máximo potencial en el mercado en línea. Nuestra misión es ser el socio tecnológico de confianza para empresas que buscan innovar y adaptarse a los constantes cambios de la era digital. Nos enorgullecemos de ofrecer un servicio cercano y personalizado, adaptándonos a las necesidades específicas de cada cliente.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 InnovaCloud Solutions. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
